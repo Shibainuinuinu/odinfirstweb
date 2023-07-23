@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+html, body {
+    height: 100%;
+}
+
+nav img {
+    margin-top: 1vh;
+    height: auto;
+    width: 3%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+nav div {
+    display: flex;
+    width: 20vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topbox {
+    background-color: black;
+}
+
+.topinfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+    padding: 5vh 5vw
+}
+
+
+.toptext {
+    width: 25vw;
+    text-align: center;
+}
+
+.toptext p {
+    font-size: 15px;
+}
+
+.toptext button {
+    background-color: rgb(161, 48, 33);
+    margin-top: 3vh;
+    padding: 0.5em;
+    border-radius: 0.4em;
+    font-size: 25px;
+    opacity: 0.8;
+    border: 0;
+}
+
+.toptext button:hover, .bottomcontentbox button:hover {
+    opacity: 1;
+}
+
+.middle {
+    background-color: rgb(43, 41, 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+
+.sourcecards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+.middle h1 {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+
+}
+
+.sourcecards button {
+    display: block;
+    margin: 5vh auto;
+    padding: 0;
+}
+
+.sourcecards img {
+    height:auto;
+    width: 10vw;
+}
+
+.sourcecardtext{
+    text-align: center;
+    width: 25vw;
+}
+
+.quote {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.quote p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.quote p.authorquote {
+    margin-top: 2vh;
+    text-align: right;
+}
+
+.bottom {
+    background-color: rgb(43, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+}
+
+.bottomcontentbox {
+    background-color: rgba(0, 0, 0, 0.253);
+    border: 1px white solid;
+    padding: 5em 5em;
+    border-radius: 0.9em;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;    
+    align-items: flex-end;
+}
+
+.bottomcontentbox button {
+    background-color: rgb(161, 48, 33);
+    padding: 0.5em;
+    margin-right: 2vw;
+    border-radius: 0.4em;
+    font-size: 25px;
+    opacity: 0.8;
+    border: 0;
+}
+
+footer {
+    background-color: black;
+    padding: 2vh;
+    text-align: center;
+}
